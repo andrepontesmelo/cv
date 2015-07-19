@@ -1,8 +1,14 @@
-# About
-Latest version of my CV, typesetted in Helvetica and using colors inspired by Monokai (there is an `print` option which renders in black and white, and reverts the header to dark on light, if printing on paper is needed).
+# Precompiled Files
+* [English](https://github.com/andrepontesmelo/cv/releases/download/current-en/AndrePontesMeloCv-En.pdf)
+* [Portuguese](https://github.com/andrepontesmelo/cv/releases/download/current-pt/AndrePontesMeloCv-Pt.pdf)
 
-Uses TikZ for the header, XeTeX and fontspec to use Helvetica Neue, biblatex to print my publications and textpos for the aside.
+# Install Requirements @ Fedora 
 
+    sudo dnf -y install texlive texlive-latex texlive-xetex texlive-collection-latex texlive-collection-latexrecommended texlive-xetex-def texlive-collection-xetex texlive-collection-latexextra
+
+# Generate PDF
+
+    xelatex AndrePontesMeloCv-En.tex
 
 # License
 
