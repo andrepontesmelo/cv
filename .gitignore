@@ -15,4 +15,11 @@
 *.synctex.gz
 *.synctex.gz(busy)
 *.auxlock
-cv-blx.bib
+*.aux
+*.log
+*.bak
+*.tex~
+*.out
+*.xml
+*.bcf
+*.fdb_latexmk
