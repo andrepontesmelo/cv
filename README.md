@@ -1,10 +1,14 @@
+# Precompiled Files
+* [English](https://github.com/andrepontesmelo/cv/releases/download/current-en/AndrePontesMeloCv-En.pdf)
+* [Portuguese](https://github.com/andrepontesmelo/cv/releases/download/current-pt/AndrePontesMeloCv-Pt.pdf)
+
 # Install Requirements @ Fedora 
 
     sudo dnf -y install texlive texlive-latex texlive-xetex texlive-collection-latex texlive-collection-latexrecommended texlive-xetex-def texlive-collection-xetex texlive-collection-latexextra
 
 # Generate PDF
 
-    xelatex AndrePontesMeloCv-PtBr.tex AndrePontesMeloCv-En.tex  
+    xelatex AndrePontesMeloCv-En.tex
 
 # License
 
