@@ -6,6 +6,11 @@
 
     sudo dnf -y install texlive texlive-latex texlive-xetex texlive-collection-latex texlive-collection-latexrecommended texlive-xetex-def texlive-collection-xetex texlive-collection-latexextra
 
+# Install Requirements @ Ubuntu 
+
+    sudo apt-get install texlive-xetex latex-xcolor texlive-full texlive-latex-extra
+ 
+ 
 # Generate PDF
 
     xelatex AndrePontesMeloCv-En.tex
