@@ -8,6 +8,8 @@
   pdfborderstyle={/S/U/W 1},
 }
 
+\usepackage[document]{ragged2e}
+
 \begin{document}
 
 \header{André}{Melo}{Software Engineer} % Your name and current job title/field
@@ -17,7 +19,7 @@
 %----------------------------------------------------------------------------------------
 
 \begin{aside} 
-\section{about}
+\section{contact}
 Belo Horizonte, Brazil
 +55 (31) 9228 2842
 +55 (31) 3046 1812
@@ -31,17 +33,36 @@ portuguese
 english
 \section{programming}
 C\#
-Java\\Ruby\\Python\\C++, C
+ {\color{red} $\varheartsuit$} Java\\Ruby\\Python\\C++, C
+CSS, JavaScript
+\section{frameworks}
+AngularJS
+Selenium
+Capybara
+Cucumber 
+ASP.NET
+\section{libraries}
+NHibernate
+Crystal
+\section{technologies}
+ {\color{red} $\varheartsuit$} Linux
+Amazon AWS
+Virtualization
+UI Automation
+JSP
+\section{databases}
+MySQL/MariaDB
+MSSQL
+\section{IDEs}
+ {\color{red} $\varheartsuit$} IntelliJ
+Mono Develop
+Visual Studio
 \end{aside}
-
 \section{intro}
 
-I like to imagine how the future will look like and I build it in the mean time. I have fun discovering and combining new technologies. 
-I am currently diving into Android development. 
-
+I like to imagine what the future will look like and I build it in the mean time.
 
 \section{experience}
-
 \begin{entrylist}
 
 %------------------------------------------------
@@ -51,7 +72,7 @@ I am currently diving into Android development.
 {INDÚSTRIA MINEIRA DE JOIAS}
 {Belo Horizonte, Brazil}
 % %%%find . -name '*.cs' | grep -v esigner | grep -v emporary | awk '{gsub(" ","\\ ", $0);print $0}' | xargs wc -l 
-{\emph{\bullet Java \bullet AngularJS } \\  Expanding existing system functionalities with a new REST based web interface.}
+{ Expanding existing system functionalities with a new REST based web interface.}
 
 %------------------------------------------------
 
@@ -59,7 +80,7 @@ I am currently diving into Android development.
 {2012--2013}
 {GAP @ AVENUECODE}
 {San Francisco, USA}
-{\emph{\bullet Selenium \bullet Capybara \bullet Webkit \bullet Ruby \bullet Cucumber \bullet AngularJS } \\ Expanded the functional tests and did a research and development that resulted in switching the rendering engine from selenium to capybara-webkit. This allowed tests to run in  headless mode into the continuous integration pipeline.
+{ Expanded the functional tests and did a research and development that resulted in switching the rendering engine from selenium to capybara-webkit. This allowed tests to run in  headless mode into the continuous integration pipeline.
 }
 
 %------------------------------------------------
@@ -68,7 +89,7 @@ I am currently diving into Android development.
 {2011--2012}
 {BLOOMINGDALE'S @ AVENUECODE}
 {New York, USA}
-{\emph{\bullet JSP \bullet YUI \bullet CSS \bullet JavaScript } \\ Front ent for Bloomingdales checkout project under Agile Development. 
+{ Front ent for Bloomingdales checkout project under Agile Development. 
 }
 %------------------------------------------------
 
@@ -76,7 +97,7 @@ I am currently diving into Android development.
 {2010--2011}
 {COTAK SISTEMAS}
 {Belo Horizonte, Brazil}
-{\emph{\bullet C\# \bullet MySQL \bullet Virtualization \bullet Amazon AWS \bullet UI Automation \bullet Selenium } \\ Build an autonomic library for configure and log distributed applications, and a map reduce library for scheduling a set of pair<algorithm, data> dynamically. 
+{ Build an autonomic library for configure and log distributed applications, and a map reduce library for scheduling a set of pair<algorithm, data> dynamically. 
 
 % Worked in development of a distributed computing cloud that automate UI web % interfaces, designed to feed automatic insurance quotes. Acquired experience in  distributed web systems, software architecture and technology research. Used C\# .NET and Amazon EC2 services. Had an opportunity to build an autonomic library for configure and log distributed applications, and a map reduce library for scheduling a set of pair<algorithm, data> dynamically.
 % 
@@ -87,7 +108,7 @@ I am currently diving into Android development.
 {2009}
 {CONTRATANET}
 {Belo Horizonte, Brazil}
-{\emph{\bullet C\# \bullet ASP.NET \bullet MySQL \bullet NHibernate } \\Development of new set of classes to generate matching and ranking between jobs and candidates. Using map-reduce to validate changes in regression tests. }
+{ Development of new set of classes to generate matching and ranking between jobs and candidates. Using map-reduce to validate changes in regression tests. }
 
 %------------------------------------------------
 
@@ -95,7 +116,7 @@ I am currently diving into Android development.
  {2004--2009}
  {INDÚSTRIA MINEIRA DE JOIAS}
  {Belo Horizonte, Brazil}
- {\emph{\bullet C\# \bullet MySQL \bullet Cent-OS \bullet Crystal Reports } \\ Software development for jewelry business company.
+ { Software development for jewelry business company.
   Improved the worse business case that used to take 2 weeks and now takes 2 days by introducing model related consistency tests and by optimizing the company overall work-flow. }
 
 % %------------------------------------------------
@@ -105,7 +126,6 @@ I am currently diving into Android development.
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-
 \section{education}
 
 \begin{entrylist}
