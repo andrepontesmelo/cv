@@ -1,5 +1,12 @@
 \documentclass[]{friggeri-cv}
 
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+  allbordercolors=blue,
+  pdfborderstyle={/S/U/W 1},
+}
+
 \begin{document}
 \hyphenation{pos-ta-gem si-lá-bi-ca exe-cu-ção pa-ra-le-lo al-te-ra-ções co-lo-ri-das me-lhor}
 \header{André}{Melo}{Engenheiro de Software} % Seu nome e profissão.
@@ -23,14 +30,113 @@ Belo Horizonte, Brasil
 português
 inglês 
 \section{linguagens}
-%{\color{red} $\varheartsuit$} C\#
 C\#
-Java\\Ruby\\Python\\C++, C
+ {\color{red} $\varheartsuit$} Java\\Ruby\\Python\\C++, C
+CSS, JavaScript
+\section{frameworks}
+AngularJS
+Selenium
+Capybara
+Cucumber 
+ASP.NET
+\section{bibliotecas}
+NHibernate
+Crystal
+\section{tecnologias}
+ {\color{red} $\varheartsuit$} Linux
+Amazon AWS
+Virtualização
+Automação
+JSP
+\section{bancos de dados}
+MySQL/MariaDB
+MSSQL
+\section{IDEs}
+ {\color{red} $\varheartsuit$} IntelliJ
+Mono Develop
+Visual Studio
 \end{aside}
 
 \section{apresentação}
-Gosta de imaginar o futuro e o constrói enquanto imagina. Gosta de combinar tecnologias. 
-Atualmente aprendendo desenvolvimento Android.
+Eu gosto de imaginar como o futuro será e o ajudo a construir enquanto imagino.
+
+
+\section{experiência}
+
+\begin{entrylist}
+
+
+\entry
+{2013--ATUAL}
+{INDÚSTRIA MINEIRA DE JOIAS}
+{Belo Horizonte, Brasil}
+{ Desenvolvimento de software para empresa do ramo de joias.  
+
+  \begin{itemize}
+    \item Implementou novo aplicativo com menor tempo de resposta. 
+    \item Reduziu o tempo de resposta ao refatorar o aplicativo existente.  
+    \item Reduziu a carga de trabalho do setor financeiro com novo módulo.
+    \item Implementou backup de máquina do tempo usando \textit{COW} do BtrFs. 
+  \end{itemize}
+  }
+
+
+\entry
+{2012--2013}
+{GAP @ AVENUECODE}
+{São Francisco, EUA}
+{ Desenvolvimento de software para cliente \textit{fortune 500} usando metodologia ágil.  
+  \begin{itemize}
+    \item Desenvolvimento e pesquisa que integrou os testes funcionais ao pipeline de integração contínua usando \textit{capybara-webkit headless driver}.
+  \end{itemize}
+}
+
+
+
+\entry
+{2011--2012}
+{BLOOMINGDALE'S @ AVENUECODE}
+{Nova Iorque, EUA}
+{ Desenvolvimento de software para cliente \textit{fortune 500} usando metodologia ágil.  
+
+  \begin{itemize}
+    \item Implementou interface para projeto \textit{checkout} usando YUI e JSP.
+  \end{itemize}
+}
+
+
+\entry
+{2010--2011}
+{COTAK SISTEMAS}
+{Belo Horizonte, Brasil}
+{ Implementou uma biblioteca autonômica para configuração e log de aplicações distribuídas além de um escalonador de tarefas. 
+
+  \begin{itemize}
+    \item Liberou a máquina do cliente de executar intensa automação ao mover a execução para instâncias controladas na nuvem.
+    \item Melhorou a taxa de sucesso ao implementar um painel de monitoramento.      
+  \end{itemize}
+}
+
+
+\entry
+{2009}
+{CONTRATANET}
+{Belo Horizonte, Brasil}
+{Implementou método de \textit{matching} entre vagas e candidatos. Utilização \textit{map-reduce} para validar as alterações em testes de regressão.
+}
+
+
+ \entry
+ {2004--2009}
+ {INDÚSTRIA MINEIRA DE JOIAS}
+{Belo Horizonte, Brasil}
+ { Desenvolvimento de software para empresa do ramo de joias.
+  \begin{itemize}
+    \item Otimizou o processo mais lento da empresa levando o tempo de acerto de representante de duas semanas para dois dias.
+  \end{itemize} }
+  
+
+\end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	SEÇÃO EDUCAÇÃO
@@ -46,103 +152,55 @@ Atualmente aprendendo desenvolvimento Android.
 {Dale Carnegie Training}
 
 \entry
+{2006}
+{Publicação do art. {\normalfont Color image enhancement through 2D histogram equalization}}
+{Budapeste, Hungria}
+%------------------------------------------------
+
+\entry
 {2004--2010}
 {{\normalfont Bacharelado em} Ciências da Computação}
 {Universidade Federal de Minas Gerais}
 
 \end{entrylist}
 
-\section{experiência}
-
-\begin{entrylist}
-
-\entry
-{2013--ATUAL}
-{INDÚSTRIA MINEIRA DE JOIAS}
-{Belo Horizonte, Brasil}
-% %%%find . -name '*.cs' | grep -v esigner | grep -v emporary | awk '{gsub(" ","\\ ", $0);print $0}' | xargs wc -l 
-{\emph{\bullet C\# \bullet Linux \bullet BtrFs CoW  } \\ Desenvolvimento de software para empresa do ramo de joias. Desenvolvimento de sistemas de controle de estoque e comissão. Refatoração para melhora do tempo de resposta. Implementação de máquina do tempo através de backup incremental usando recurso copy-on-write do sistema de arquivos BtrFs. }
-
-\entry
-{2012--2013}
-{GAP @ AVENUECODE}
-{São Francisco, EUA}
-{\emph{\bullet Selenium \bullet Capybara \bullet Webkit \bullet Ruby \bullet Cucumber \bullet AngularJS } \\
-\
-Expandiu os testes funcionais além de desenvolvimento e pesquisa que resultou na troca do motor de renderização de \textit{selenium} para \textit{capybara-webkit} sendo possível a execução \textit{headless} no pipeline do \textit{continuous integration}.% e apresentando melhor desempenho.
-
-}
 
 
-\entry
-{2011--2012}
-{BLOOMINGDALES @ AVENUECODE}
-{Nova Iorque, EUA}
-{\emph{\bullet JSP \bullet YUI \bullet CSS \bullet JavaScript } \\
-\
-Desenvolvimento \textit{front-end} para o checkout da bloomingdales.com. Utilização de metodologias ágeis.
-}
-
-
-\entry
-{2010--2011}
-{COTAK SISTEMAS}
-{Belo Horizonte, Brasil}
-{\emph{\bullet C\# \bullet MySQL \bullet Virtualização \bullet Amazon AWS \bullet Selenium } \\
-\
-Utilização do trabalho de final de curso de graduação para transformar o processamento de um conjunto de simulações web sequenciais em paralelo. Desenvolvimento de API ubíqua de monitoramento e controle do \textit{map-reduce}.
-}
-
-
-\entry
-{2009}
-{CONTRATANET}
-{Belo Horizonte, Brasil}
-{\emph{\bullet C\# \bullet ASP.NET \bullet MySQL \bullet NHibernate } \\ Desenvolvimento de novo conjunto de classes para geração de \textit{matching} e \textit{ranking} entre vagas e candidatos. Utilização \textit{map-reduce} para validar as alterações em testes de regressão. }
-
-\entry
-{2004--2009}
-{INDÚSTRIA MINEIRA DE JOIAS}
-{Belo Horizonte, Brasil}
-{\emph{\bullet C\# \bullet MySQL \bullet CentOS \bullet Crystal Reports } \\ Desenvolvimento de software para empresa do ramo de joias. Permitiu melhor comunicação entre setores e otimizou o tempo de acerto que demorava duas semanas e agora leva dois dias. Isso foi possível ao otimizar o \textit{workflow} da empresa e por introduzir testes de consistência dependentes do domínio que funcionam como \textit{feedback} em tempo real para o usuário.}
-
-\end{entrylist}
-
-\section{intercâmbios} 
-
-\begin{entrylist}
-
-\entry
-{2006--2007}
-{Operador {\normalfont de estacionamentos do cassino}}
-{Mohegan Sun Casino, Connecticut, EUA}
-
-\entry
-{2010} 
-{Operador {\normalfont de supermercado}}
-{Publix Supermarkets, Florida, EUA}
-
-\end{entrylist}
-
-\section{premiações}
-
-\begin{entrylist}
-
-\entry
-{2003} 
-{$1^{o}$ lugar {\normalfont no $3^{o}$ campeonato mineiro de robótica}}
-{Copa SUCESU, Minas Gerais, Brasil}
-
-\end{entrylist}
-
-\section{publicações}
-
-MELO, A.; MENOTTI D.; SGARBI, E.; FACON, J.; ARAUJO, A. A. Realce de imagens coloridas através de equalização de histogramas 2D. In: Workshop of Undergraduate Students - SIBGRAPI 2005, 2005, Natal, Brasil. XVIII Brazilian Symposium on Computer Graphics and Image Processing, 2005. p. 1-8.
-
-MENOTTI D.; MELO, A.; ARAUJO, A. A.; FACON, J.; SGARBI, E. Color image enhancement through 2D histogram equalization. In: International Conference on Systems, Signals and Image Processing (IWS-SIP 2006), 2006, Budapest, Hungary. Proceedings of 13th International Conference on Systems, Signals and Image Processing (IWSSIP 2006), 2006. p. 235-238.
-
-\section{interesses}
-
-\textbf{profissionais:} computação distribuída, big data, inteligência artificial, recuperação da informação, Android e Linux \textbf{pessoais:} culinária, trilhas,  xadrez, forró e piano.
-
+% \section{intercâmbios} 
+%
+% \begin{entrylist}
+%
+% \entry
+% {2006--2007}
+% {Operador {\normalfont de estacionamentos do cassino}}
+% {Mohegan Sun Casino, Connecticut, EUA}
+%
+% \entry
+% {2010} 
+% {Operador {\normalfont de supermercado}}
+% {Publix Supermarkets, Florida, EUA}
+%
+% \end{entrylist}
+%
+% \section{premiações}
+%
+% \begin{entrylist}
+%
+% \entry
+% {2003} 
+% {$1^{o}$ lugar {\normalfont no $3^{o}$ campeonato mineiro de robótica}}
+% {Copa SUCESU, Minas Gerais, Brasil}
+%
+% \end{entrylist}
+%
+% \section{publicações}
+%
+% MELO, A.; MENOTTI D.; SGARBI, E.; FACON, J.; ARAUJO, A. A. Realce de imagens coloridas através de equalização de histogramas 2D. In: Workshop of Undergraduate Students - SIBGRAPI 2005, 2005, Natal, Brasil. XVIII Brazilian Symposium on Computer Graphics and Image Processing, 2005. p. 1-8.
+%
+% MENOTTI D.; MELO, A.; ARAUJO, A. A.; FACON, J.; SGARBI, E. Color image enhancement through 2D histogram equalization. In: International Conference on Systems, Signals and Image Processing (IWS-SIP 2006), 2006, Budapest, Hungary. Proceedings of 13th International Conference on Systems, Signals and Image Processing (IWSSIP 2006), 2006. p. 235-238.
+%
+% \section{interesses}
+%
+% \textbf{profissionais:} computação distribuída, big data, inteligência artificial, recuperação da informação, Android e Linux \textbf{pessoais:} culinária, trilhas,  xadrez, forró e piano.
+%
 \end{document}
