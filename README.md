@@ -2,15 +2,19 @@
 * [English](https://github.com/andrepontesmelo/cv/releases/download/current-en/AndrePontesMeloCv-En.pdf)
 * [Portuguese](https://github.com/andrepontesmelo/cv/releases/download/current-pt/AndrePontesMeloCv-Pt.pdf)
 
+# Required Fonts
+ * [xits-math](https://github.com/khaledhosny/xits-math)
+ * Helvetica Neue
+
 # Install Requirements @ Fedora 
 
     sudo dnf -y install texlive texlive-latex texlive-xetex texlive-collection-latex texlive-collection-latexrecommended texlive-xetex-def texlive-collection-xetex texlive-collection-latexextra
 
-# Install Requirements @ Ubuntu 
+# Install Requirements @ Ubuntu
 
     sudo apt-get install texlive-xetex latex-xcolor texlive-full texlive-latex-extra
- 
- 
+
+
 # Generate PDF
 
     xelatex AndrePontesMeloCv-En.tex
