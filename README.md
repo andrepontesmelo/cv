@@ -4,7 +4,6 @@
 
 # Required Fonts
  * [xits-math](https://github.com/khaledhosny/xits-math)
- * Helvetica Neue
 
 # Install Requirements @ Fedora 
 
